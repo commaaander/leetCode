@@ -1,0 +1,15 @@
+{
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#004444"
+    },
+    "[python]": {
+        "editor.rulers": [
+            129
+        ]
+    },
+    "editor.formatOnSave": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+    "ruff.importStrategy": "fromEnvironment",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+}
