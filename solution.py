@@ -8,3 +8,6 @@ class Solution:
                 if first_number + second_number == target:
                     return [i, i + j + 1]
         return []
+
+    def isPalindrome(self, x: int) -> bool:
+        return "".join(list(str(x))[::-1]) == str(x)
