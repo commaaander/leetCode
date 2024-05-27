@@ -21,6 +21,8 @@ class Solution:
         Returns:
             int: the number of unique elements in nums
         """
+        if len(nums) == 0:
+            return 0
 
         i = len(nums) - 1
         k = 1
